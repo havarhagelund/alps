@@ -1,0 +1,109 @@
+2022-12-20T23:39:36+01:00 - Configured upstream IMAP server: imaps://imap.migadu.com:993
+2022-12-20T23:39:37+01:00 - Configured upstream SMTP server: smtps://smtp.migadu.com:465
+2022-12-20T23:39:37+01:00 - Loaded plugin "base"
+2022-12-20T23:39:37+01:00 - Loaded plugin "viewcalendar"
+2022-12-20T23:39:37+01:00 - Loaded plugin "viewhtml"
+2022-12-20T23:39:37+01:00 - Loaded plugin "viewtext"
+2022-12-20T23:39:37+01:00 - Loading theme "alps"
+2022-12-20T23:39:37+01:00 - Loading theme "sourcehut"
+⇨ http server started on [::]:1323
+2022-12-20T23:47:40+01:00 ERROR code=404, message=Not Found
+2022-12-20T23:48:49+01:00 - Configured upstream IMAP server: imaps://imap.migadu.com:993
+2022-12-20T23:48:49+01:00 - Configured upstream SMTP server: smtps://smtp.migadu.com:465
+2022-12-20T23:48:49+01:00 - Loaded plugin "base"
+2022-12-20T23:48:49+01:00 - Loaded plugin "viewcalendar"
+2022-12-20T23:48:49+01:00 - Loaded plugin "viewhtml"
+2022-12-20T23:48:49+01:00 - Loaded plugin "viewtext"
+2022-12-20T23:48:49+01:00 - Loading theme "alps"
+2022-12-20T23:48:49+01:00 - Loading theme "sourcehut"
+⇨ http server started on [::]:1323
+2022-12-21T00:14:44+01:00 - [PANIC RECOVER] Duplicate message ID goroutine 355 [running]:
+github.com/labstack/echo/v4/middleware.RecoverWithConfig.func1.1.1()
+	/Users/havarhagelund/go/pkg/mod/github.com/labstack/echo/v4@v4.7.2/middleware/recover.go:93 +0x120
+panic({0x10362dfa0, 0x140002bdbb0})
+	/opt/homebrew/Cellar/go/1.19.4/libexec/src/runtime/panic.go:884 +0x204
+git.sr.ht/~migadu/alps/plugins/base.handleCompose.func2(0x10?)
+	/Users/havarhagelund/Documents/repos/alps/plugins/base/routes.go:714 +0x2bc
+git.sr.ht/~migadu/alps.(*Session).DoIMAP(0x140001b4120, 0x14000551648)
+	/Users/havarhagelund/Documents/repos/alps/session.go:96 +0x144
+git.sr.ht/~migadu/alps/plugins/base.handleCompose(0x140000a2800, 0x140000f0370, 0x14000551770)
+	/Users/havarhagelund/Documents/repos/alps/plugins/base/routes.go:689 +0x850
+git.sr.ht/~migadu/alps/plugins/base.handleComposeNew(0x140000a2800)
+	/Users/havarhagelund/Documents/repos/alps/plugins/base/routes.go:754 +0x388
+git.sr.ht/~migadu/alps.(*goPlugin).SetRoutes.func1({0x1036e83b0?, 0x140000a2800?})
+	/Users/havarhagelund/Documents/repos/alps/plugin_go.go:39 +0x40
+github.com/labstack/echo/v4.(*Echo).add.func1({0x1036e83b0, 0x140000a2800})
+	/Users/havarhagelund/go/pkg/mod/github.com/labstack/echo/v4@v4.7.2/echo.go:520 +0x50
+github.com/labstack/echo/v4/middleware.RecoverWithConfig.func1.1({0x1036e83b0, 0x140000a2800})
+	/Users/havarhagelund/go/pkg/mod/github.com/labstack/echo/v4@v4.7.2/middleware/recover.go:119 +0xe4
+git.sr.ht/~migadu/alps.New.func4.1({0x1036e8580?, 0x140000b2140})
+	/Users/havarhagelund/Documents/repos/alps/server.go:483 +0x25c
+git.sr.ht/~migadu/alps.New.func3.1({0x1036e8580, 0x140000b2140})
+	/Users/havarhagelund/Documents/repos/alps/server.go:458 +0x198
+github.com/labstack/echo/v4.(*Echo).ServeHTTP.func1({0x1036e8580, 0x140000b2140})
+	/Users/havarhagelund/go/pkg/mod/github.com/labstack/echo/v4@v4.7.2/echo.go:624 +0x110
+git.sr.ht/~migadu/alps.New.func2.1({0x1036e8580?, 0x140000b2140?})
+	/Users/havarhagelund/Documents/repos/alps/server.go:445 +0xa0
+github.com/labstack/echo/v4.(*Echo).ServeHTTP(0x140002ca000, {0x1036dfce0?, 0x1400001e0e0}, 0x14000250300)
+	/Users/havarhagelund/go/pkg/mod/github.com/labstack/echo/v4@v4.7.2/echo.go:630 +0x3e8
+net/http.serverHandler.ServeHTTP({0x1036de5f8?}, {0x1036dfce0, 0x1400001e0e0}, 0x14000250300)
+	/opt/homebrew/Cellar/go/1.19.4/libexec/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140000b2000, {0x1036e04c8, 0x14000618810})
+	/opt/homebrew/Cellar/go/1.19.4/libexec/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.19.4/libexec/src/net/http/server.go:3102 +0x444
+
+goroutine 1 [chan receive, 25 minutes]:
+main.main()
+	/Users/havarhagelund/Documents/repos/alps/cmd/alps/main.go:70 +0x610
+
+goroutine 332 [IO wait]:
+internal/poll.runtime_pollWait(0x12b263408, 0x72)
+	/opt/homebrew/Cellar/go/1.19.4/libexec/src/runtime/netpoll.go:305 +0xa0
+internal/poll.(*pollDesc).wait(0x1400049af00?, 0x1400029e240?, 0x0)
+	/opt/homebrew/Cellar/go/1.19.4/libexec/src/internal/poll/fd_poll_runtime.go:84 +0x28
+internal/poll.(*pollDesc).waitRead(...)
+	/opt/homebrew/Cellar/go/1.19.4/libexec/src/internal/poll/fd_poll_runtime.go:89
+internal/poll.(*FD).Read(0x1400049af00, {0x1400029e240, 0x240, 0x240})
+	/opt/homebrew/Cellar/go/1.19.4/libexec/src/internal/poll/fd_unix.go:167 +0x1e0
+net.(*netFD).Read(0x1400049af00, {0x1400029e240?, 0x14000018688?, 0x1030846e8?})
+	/opt/homebrew/Cellar/go/1.19.4/libexec/src/net/fd_posix.go:55 +0x28
+net.(*conn).Read(0x140000104a0, {0x1400029e240?, 0x14000449ec0?, 0x2?})
+	/opt/homebrew/Cellar/go/1.19.4/libexec/src/net/net.go:183 +0x34
+crypto/tls.(*atLeastReader).Read(0x140005d89f0, {0x1400029e240?, 0x0?, 0x10311e528?})
+	/opt/homebrew/Cellar/go/1.19.4/libexec/src/crypto/tls/conn.go:787 +0x40
+bytes.(*Buffer).ReadFrom(0x140005dc5f8, {0x1036dadc0, 0x140005d89f0})
+	/opt/homebrew/Cellar/go/1.19.4/libexec/src/bytes/buffer.go:202 +0x90
+crypto/tls.(*Conn).readFromUntil(0x140005dc380, {0x12b211178?, 0x140000104a0}, 0x102fa5534?)
+	/opt/homebrew/Cellar/go/1.19.4/libexec/src/crypto/tls/conn.go:809 +0xd4
+crypto/tls.(*Conn).readRecordOrCCS(0x140005dc380, 0x0)
+	/opt/homebrew/Cel
+
+2022-12-21T00:14:44+01:00 ERROR Duplicate message ID
+2022-12-21T00:17:38+01:00 - Configured upstream IMAP server: imaps://imap.migadu.com:993
+2022-12-21T00:17:38+01:00 - Configured upstream SMTP server: smtps://smtp.migadu.com:465
+2022-12-21T00:17:38+01:00 - Loaded plugin "base"
+2022-12-21T00:17:38+01:00 - Loaded plugin "viewcalendar"
+2022-12-21T00:17:38+01:00 - Loaded plugin "viewhtml"
+2022-12-21T00:17:38+01:00 - Loaded plugin "viewtext"
+2022-12-21T00:17:38+01:00 - Loading theme "alps"
+2022-12-21T00:17:38+01:00 - Loading theme "sourcehut"
+⇨ http server started on [::]:1323
+2022-12-21T00:21:58+01:00 - Configured upstream IMAP server: imaps://imap.migadu.com:993
+2022-12-21T00:21:59+01:00 - Configured upstream SMTP server: smtps://smtp.migadu.com:465
+2022-12-21T00:21:59+01:00 - Loaded plugin "base"
+2022-12-21T00:21:59+01:00 - Loaded plugin "viewcalendar"
+2022-12-21T00:21:59+01:00 - Loaded plugin "viewhtml"
+2022-12-21T00:21:59+01:00 - Loaded plugin "viewtext"
+2022-12-21T00:21:59+01:00 - Loading theme "alps"
+2022-12-21T00:21:59+01:00 - Loading theme "sourcehut"
+⇨ http server started on [::]:1323
+2022-12-21T00:24:13+01:00 - Configured upstream IMAP server: imaps://imap.migadu.com:993
+2022-12-21T00:24:13+01:00 - Configured upstream SMTP server: smtps://smtp.migadu.com:465
+2022-12-21T00:24:13+01:00 - Loaded plugin "base"
+2022-12-21T00:24:13+01:00 - Loaded plugin "viewcalendar"
+2022-12-21T00:24:13+01:00 - Loaded plugin "viewhtml"
+2022-12-21T00:24:13+01:00 - Loaded plugin "viewtext"
+2022-12-21T00:24:13+01:00 - Loading theme "alps"
+2022-12-21T00:24:13+01:00 - Loading theme "sourcehut"
+⇨ http server started on [::]:1323
