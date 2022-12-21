@@ -107,3 +107,113 @@ crypto/tls.(*Conn).readRecordOrCCS(0x140005dc380, 0x0)
 2022-12-21T00:24:13+01:00 - Loading theme "alps"
 2022-12-21T00:24:13+01:00 - Loading theme "sourcehut"
 ⇨ http server started on [::]:1323
+2022-12-21T00:56:19+01:00 - Configured upstream IMAP server: imaps://imap.migadu.com:993
+2022-12-21T00:56:21+01:00 - Configured upstream SMTP server: smtps://smtp.migadu.com:465
+2022-12-21T00:56:21+01:00 - Loaded plugin "base"
+2022-12-21T00:56:21+01:00 - Loaded plugin "viewcalendar"
+2022-12-21T00:56:21+01:00 - Loaded plugin "viewhtml"
+2022-12-21T00:56:21+01:00 - Loaded plugin "viewtext"
+2022-12-21T00:56:21+01:00 - Loading theme "alps"
+2022-12-21T00:56:21+01:00 - Loading theme "lundr"
+2022-12-21T00:56:21+01:00 - Loading theme "sourcehut"
+⇨ http server started on [::]:1323
+2022-12-21T01:02:09+01:00 - Configured upstream IMAP server: imaps://imap.migadu.com:993
+2022-12-21T01:02:09+01:00 - Configured upstream SMTP server: smtps://smtp.migadu.com:465
+2022-12-21T01:02:09+01:00 - Loaded plugin "base"
+2022-12-21T01:02:09+01:00 - Loaded plugin "viewcalendar"
+2022-12-21T01:02:09+01:00 - Loaded plugin "viewhtml"
+2022-12-21T01:02:09+01:00 - Loaded plugin "viewtext"
+2022-12-21T01:02:09+01:00 - Loading theme "alps"
+2022-12-21T01:02:09+01:00 - Loading theme "lundr"
+2022-12-21T01:02:09+01:00 - Loading theme "sourcehut"
+⇨ http server started on [::]:1323
+2022-12-21T01:03:12+01:00 - Configured upstream IMAP server: imaps://imap.migadu.com:993
+2022-12-21T01:03:12+01:00 - Configured upstream SMTP server: smtps://smtp.migadu.com:465
+2022-12-21T01:03:12+01:00 - Loaded plugin "base"
+2022-12-21T01:03:12+01:00 - Loaded plugin "viewcalendar"
+2022-12-21T01:03:12+01:00 - Loaded plugin "viewhtml"
+2022-12-21T01:03:12+01:00 - Loaded plugin "viewtext"
+2022-12-21T01:03:12+01:00 - Loading theme "alps"
+2022-12-21T01:03:12+01:00 - Loading theme "lundr"
+2022-12-21T01:03:12+01:00 - Loading theme "sourcehut"
+⇨ http server started on [::]:1323
+2022-12-21T01:06:30+01:00 - Configured upstream IMAP server: imaps://imap.migadu.com:993
+2022-12-21T01:06:30+01:00 - Configured upstream SMTP server: smtps://smtp.migadu.com:465
+2022-12-21T01:06:30+01:00 - Loaded plugin "base"
+2022-12-21T01:06:30+01:00 - Loaded plugin "viewcalendar"
+2022-12-21T01:06:30+01:00 - Loaded plugin "viewhtml"
+2022-12-21T01:06:30+01:00 - Loaded plugin "viewtext"
+2022-12-21T01:06:30+01:00 - Loading theme "alps"
+2022-12-21T01:06:30+01:00 - Loading theme "lundr"
+2022-12-21T01:06:30+01:00 - Loading theme "sourcehut"
+⇨ http server started on [::]:1323
+2022-12-21T01:08:58+01:00 - Configured upstream IMAP server: imaps://imap.migadu.com:993
+2022-12-21T01:08:58+01:00 - Configured upstream SMTP server: smtps://smtp.migadu.com:465
+2022-12-21T01:08:58+01:00 - Loaded plugin "base"
+2022-12-21T01:08:58+01:00 - Loaded plugin "viewcalendar"
+2022-12-21T01:08:58+01:00 - Loaded plugin "viewhtml"
+2022-12-21T01:08:58+01:00 - Loaded plugin "viewtext"
+2022-12-21T01:08:58+01:00 - Loading theme "alps"
+2022-12-21T01:08:58+01:00 - Loading theme "lundr"
+2022-12-21T01:08:58+01:00 - Loading theme "sourcehut"
+⇨ http server started on [::]:1323
+2022-12-21T01:09:36+01:00 - Configured upstream IMAP server: imaps://imap.migadu.com:993
+2022-12-21T01:09:36+01:00 - Configured upstream SMTP server: smtps://smtp.migadu.com:465
+2022-12-21T01:09:36+01:00 - Loaded plugin "base"
+2022-12-21T01:09:36+01:00 - Loaded plugin "viewcalendar"
+2022-12-21T01:09:36+01:00 - Loaded plugin "viewhtml"
+2022-12-21T01:09:36+01:00 - Loaded plugin "viewtext"
+2022-12-21T01:09:36+01:00 - Loading theme "alps"
+2022-12-21T01:09:36+01:00 - Loading theme "lundr"
+2022-12-21T01:09:36+01:00 - Loading theme "sourcehut"
+⇨ http server started on [::]:1323
+2022-12-21T01:12:43+01:00 - Configured upstream IMAP server: imaps://imap.migadu.com:993
+2022-12-21T01:12:44+01:00 - Configured upstream SMTP server: smtps://smtp.migadu.com:465
+2022-12-21T01:12:44+01:00 - Loaded plugin "base"
+2022-12-21T01:12:44+01:00 - Loaded plugin "viewcalendar"
+2022-12-21T01:12:44+01:00 - Loaded plugin "viewhtml"
+2022-12-21T01:12:44+01:00 - Loaded plugin "viewtext"
+2022-12-21T01:12:44+01:00 - Loading theme "alps"
+2022-12-21T01:12:44+01:00 - Loading theme "lundr"
+2022-12-21T01:12:44+01:00 - Loading theme "sourcehut"
+⇨ http server started on [::]:1323
+2022-12-21T01:14:23+01:00 - Configured upstream IMAP server: imaps://imap.migadu.com:993
+2022-12-21T01:14:23+01:00 - Configured upstream SMTP server: smtps://smtp.migadu.com:465
+2022-12-21T01:14:23+01:00 - Loaded plugin "base"
+2022-12-21T01:14:23+01:00 - Loaded plugin "viewcalendar"
+2022-12-21T01:14:23+01:00 - Loaded plugin "viewhtml"
+2022-12-21T01:14:23+01:00 - Loaded plugin "viewtext"
+2022-12-21T01:14:23+01:00 - Loading theme "alps"
+2022-12-21T01:14:23+01:00 - Loading theme "lundr"
+2022-12-21T01:14:23+01:00 - Loading theme "sourcehut"
+⇨ http server started on [::]:1323
+2022-12-21T01:15:01+01:00 - Configured upstream IMAP server: imaps://imap.migadu.com:993
+2022-12-21T01:15:01+01:00 - Configured upstream SMTP server: smtps://smtp.migadu.com:465
+2022-12-21T01:15:01+01:00 - Loaded plugin "base"
+2022-12-21T01:15:01+01:00 - Loaded plugin "viewcalendar"
+2022-12-21T01:15:01+01:00 - Loaded plugin "viewhtml"
+2022-12-21T01:15:01+01:00 - Loaded plugin "viewtext"
+2022-12-21T01:15:01+01:00 - Loading theme "alps"
+2022-12-21T01:15:01+01:00 - Loading theme "lundr"
+2022-12-21T01:15:01+01:00 - Loading theme "sourcehut"
+⇨ http server started on [::]:1323
+2022-12-21T01:29:44+01:00 - Configured upstream IMAP server: imaps://imap.migadu.com:993
+2022-12-21T01:29:44+01:00 - Configured upstream SMTP server: smtps://smtp.migadu.com:465
+2022-12-21T01:29:44+01:00 - Loaded plugin "base"
+2022-12-21T01:29:44+01:00 - Loaded plugin "viewcalendar"
+2022-12-21T01:29:44+01:00 - Loaded plugin "viewhtml"
+2022-12-21T01:29:44+01:00 - Loaded plugin "viewtext"
+2022-12-21T01:29:44+01:00 - Loading theme "alps"
+2022-12-21T01:29:44+01:00 - Loading theme "lundr"
+2022-12-21T01:29:44+01:00 - Loading theme "sourcehut"
+⇨ http server started on [::]:1323
+2022-12-21T01:31:54+01:00 - Configured upstream IMAP server: imaps://imap.migadu.com:993
+2022-12-21T01:31:55+01:00 - Configured upstream SMTP server: smtps://smtp.migadu.com:465
+2022-12-21T01:31:55+01:00 - Loaded plugin "base"
+2022-12-21T01:31:55+01:00 - Loaded plugin "viewcalendar"
+2022-12-21T01:31:55+01:00 - Loaded plugin "viewhtml"
+2022-12-21T01:31:55+01:00 - Loaded plugin "viewtext"
+2022-12-21T01:31:55+01:00 - Loading theme "alps"
+2022-12-21T01:31:55+01:00 - Loading theme "lundr"
+2022-12-21T01:31:55+01:00 - Loading theme "sourcehut"
+⇨ http server started on [::]:1323
